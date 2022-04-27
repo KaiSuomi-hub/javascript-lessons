@@ -3,9 +3,6 @@
 
 let ind = 0;
 let sum = 0;
-let mod1 = ind % 3;
-let mod2 = ind % 5;
-
 
 while (ind <= 100) {
 	if (ind % 3 === 0 && ind % 5 === 0) {
