@@ -32,7 +32,7 @@ const charIndex = {
 };
 const arrayCharIndex = Object.entries(charIndex); //transform to array
 
-let strL = input.length
+let strL = input.length;
 
 let textConverted = '';
 for (let j = 0; j < strL; j++) {
