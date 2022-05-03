@@ -1,5 +1,6 @@
 // 3.5.2022 Antti Suomi
 // check this
+let tmp = '';
 let num = Number(process.argv[2]);
 let num2 = 1;
 let f = function (num) {
@@ -9,8 +10,8 @@ let f = function (num) {
 	} else {
 			console.log(num2); //stops calling itself
 	}
-
 }
 tmp = f(num);
 
-console.log(tmp); //
+// console.log(tmp); //
+//
