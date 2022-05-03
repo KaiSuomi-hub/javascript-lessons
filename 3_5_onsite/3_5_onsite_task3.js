@@ -1,18 +1,19 @@
 // 3.5.2022 Antti Suomi
+// check this
 let num = Number(process.argv[2]);
-// let i = 1 ;
-let g = 0;
-let arr = [1];
-const fact = (num) => {
+let num2 = 1;
+let f = function (num) {
 
-	for (let i = 1; i <= num; i++) {
-		num= num * (num - i);
 
+	if (num >=  1) {
+		num2 = num * num2;
+
+	return f(num - 1); // calling itself
+	} else {
+			console.log(num2); //stops calling itself
 	}
-	// console.log((g));
-		g = g + num;
-		console.log((num));
-		arr.push(num);
-}
-console.log(fact(num))
 
+}
+tmp = f(num);
+
+console.log(tmp); //
