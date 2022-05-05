@@ -1,7 +1,1 @@
-const forecast = {
-	day: "monday",
-	temperature: 20,
-	cloudy: true,
-	sunny: false,
-	windy: false,
-	};
+{"day":"monday","temperature":4,"cloudy":true,"sunny":false,"windy":false}
