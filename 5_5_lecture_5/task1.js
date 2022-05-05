@@ -12,12 +12,15 @@ const fs = require('fs');
 
 // stream the file
 const readStream = fs.createReadStream("./newFile.txt", 'utf-8');
-
+const stream = fs.createWriteStream("./changedFile.txt");
 readStream.on("data", (txt) => {
 	text = txt;
-	txt.replace('joulu', 'kinkku');
-	txt.replace('lapsilla', 'poroilla');
+	text = text.replace(/joulu/gi, 'kinkku');
+	text = text.replace(/lapsilla/gi, 'poroilla');
 
+	stream.write(text,(err) => {
+		if (err) console.log(err);
+		else console.log("success");
+		});
 }
 );
-	console.log(text);
