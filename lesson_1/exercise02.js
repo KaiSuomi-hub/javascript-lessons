@@ -1,4 +1,4 @@
-// ! we need this to get input, npm install
+// ! we need this to get input, npm install prompt-sync
 const prompt = require('prompt-sync')();
 
 let a =  parseInt(prompt('Anna luku? '));
