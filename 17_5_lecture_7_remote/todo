@@ -1,0 +1,46 @@
+I’m glad to help you Here’s a list of commands you can use!
+Accounts
+createAccount -- > Opens dialog for creating an account.
+closeAccount -- > Opens a dialog for closing an account.
+modifyAccount -- > Opens a dialog for modifying an account.
+README.md 5/16/2022
+2 / 8
+doesAccountExist -- > Opens a dialog for checking if the account exists.
+login -- > Opens a dialog for logging in.
+logout -- > Opens a dialog for logging out.
+Funds
+withdrawFunds -- > Opens a dialog for withdrawing funds.
+depositFunds -- > Opens a dialog for depositing funds.
+transferFunds -- > Opens a dialog for transferring funds to another account.
+Requests
+requestFunds -- > Opens a dialog for requesting another user for funds.
+fundRequests -- > Shows all the requests for the account funds.
+acceptFundRequest -- > Opens a dialog for accepting a fund request.
+
+
+So you want to create a new account!
+Let’s start with the easy question. What is your name?
+Dan Ackers
+Hey Dan Ackers! It’s create to have you as a client.
+How much cash do you want to deposit to get started with your account? (10€ is the minimum)
+8
+Unfortunately we can’t open an account for such a small account. Do you have any more cash with
+you?
+12
+Great Dan Ackers! You now have an account (ID: 1) with balances of 12€.
+We’re happy to have you as a customer, and we want to ensure that your money is safe with us. Give
+us a password, which gives only you the access to your account.
+HappyCrappy
+
+const account = {
+	name: "Dan Ackers",
+	password: "HappyCrappy",
+	id: 1,
+	balance: 12,
+	fundRequests: []
+}
+
+Now when you exit the command line, you’ll notice that all the data is gone. Store all the data from the
+application in to a json file, and always reload it when you restart the program. This way you will never lose
+the valuable accounts of your bank.
+

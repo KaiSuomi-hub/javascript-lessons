@@ -1,0 +1,11 @@
+{
+	"commands":{
+		"login": {
+			"id" : "login",
+			"function": "login",
+			"name": "login"
+		}
+
+	}
+
+}

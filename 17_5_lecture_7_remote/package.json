@@ -1,0 +1,15 @@
+{
+  "name": "bankbot",
+  "version": "1.0.0",
+  "description": "a html & javascript bankbot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "A Suomi",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
