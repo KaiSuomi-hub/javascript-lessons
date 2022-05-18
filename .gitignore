@@ -58,7 +58,7 @@ typings/
 .DS_Store
 node_modules
 /dist
-cache
+.cache
 dist
 
 # local env files
