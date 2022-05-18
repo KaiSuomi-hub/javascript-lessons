@@ -1,21 +1,20 @@
-  const Gg = () => {
+import './App.css';
+
+function App() {
+      const Gg = () => {
     return (
-      <p> dd </p>
+      <p> {new Date().getFullYear()}</p>
 
       )
   }
-function App() {
-
-
-
-
 
   return (
     <div className="App">
-      console
-      <div><h1>Hello World</h1></div>
-    It's year <Gg />    </div>
-  )
+      <header className="App-header">
+      <Gg/>
+      </header>
+    </div>
+  );
 }
 
 export default App;
