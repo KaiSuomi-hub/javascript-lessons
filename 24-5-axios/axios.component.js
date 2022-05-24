@@ -7,7 +7,7 @@ const getData = async (url) => {
     return data;
 };
 let dd = ''
-const addr = "127.0.0.1:8080/data.json";
+const addr = "http://127.0.0.1:8080/data.json";
 
 
 async function main() {
@@ -17,5 +17,5 @@ async function main() {
 
 }
 
-
-export default main;
+main();
+// export default main;
