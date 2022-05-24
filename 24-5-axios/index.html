@@ -10,14 +10,22 @@
 
 	<div class="main">
 		Axios example
-		<p id="output"></p>
 		
+		<p id="output"></p>
+
 	</div>
 
 
 
 </body>
 
-<script src="./axios.component.js"></script>
 
+
+<script type="module" src="./axios.component.js">
+	document.getElementById("main").innerHTML =main(); // we push main to main div
+	console.log('dd');
+</script>
+<script>
+// console.log('dd');
+</script>
 </html>
