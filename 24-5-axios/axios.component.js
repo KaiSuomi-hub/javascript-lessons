@@ -12,7 +12,7 @@ const addr = "http://127.0.0.1:8080/data.json";
 
 async function main() {
     const data = await getData(addr);
-    let dataout = '<p>' + data.employees.name + '</p>';
+    let dataout = '<p>' + data.employees + '</p>';
     console.log(dataout);
 	return dataout;
 }
